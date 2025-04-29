@@ -10,7 +10,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
 import secrets
 import base64
-SERVER_addr="192.168.43.137"
+SERVER_addr="127.0.0.1"
 PORT=8000
 clients = {}
 groups= {}
